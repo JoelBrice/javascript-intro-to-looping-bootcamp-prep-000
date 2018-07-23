@@ -3,6 +3,11 @@ function forLoop(array[]){
     if(i=0){
       array+"I am ${i} strange loop${i}.";
     }
+    else {
+      {
+        array+"I am ${i} strange loops."
+      }
+    }
   }
 }
 function whileloop(n){
