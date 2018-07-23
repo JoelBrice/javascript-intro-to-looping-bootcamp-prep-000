@@ -11,18 +11,17 @@ function whileloop(n){
   }
   }
 function maybeTrue(){
-  rMath.random()>=0.5;
+  Math.random()>=0.5;
 }
-doWhileLoop(array){
-  while (array.length > 0 && maybeTrue()) {
-    console.log(--array);
+doWhileLoop(array[]){
+  while (array[i].length>25) {
+    console.log(--array[i]);
   }
-  return array;
 }
 do {
     maybeTrue()
 
-} while (doWhileLoop(25));
+} while (array.length > 0 && maybeTrue());
 forLoop(['a','b','c']);
 whileloop(25);
 doWhileLoop(['a','b','c']);
